@@ -55,33 +55,37 @@ public class BranchLoop {
         int counter = 0;
 
         while (counter < 10) {
-            Console.WriteLine($"\n This is While! The counter is {counter}");
+            Console.WriteLine($" This is While! The counter is {counter}");
             counter++;
         }
 
+        Console.Write("\n");
         counter = 0;
         
         do {
         
-            Console.WriteLine($"\n This is Do While! The counter is {counter}");
+            Console.WriteLine($" This is Do While! The counter is {counter}");
             counter++;
 
         } while (counter < 10);
 
+        Console.Write("\n");
 
         for(int c = 0; c < 10; c++)
         {
-            Console.WriteLine($"\n This is For loop! The counter is {c}");
+            Console.WriteLine($" This is For loop! The counter is {c}");
         }
 
-        Console.WriteLine("\n Starting a nested for loop with rows 1-11 and cols a-k"); 
+        Console.WriteLine("\n Starting a nested for loop with rows 1-11 and cols a-k\n"); 
 
         for (int row = 1; row < 11; row++)
         {
             for (char column = 'a'; column < 'k'; column++)
             {
-                Console.WriteLine($"The cell is ({row}, {column})");
+                Console.Write($" ({row}, {column})");
             }
+
+            Console.WriteLine("\n");
         }
     }
 
