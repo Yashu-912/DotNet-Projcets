@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\DotNet Programs\\BasicTutorial\\BasicTutorial.csproj": {}
+    "G:\\DotNet Programs\\1. BasicTutorial\\BasicTutorial.csproj": {}
   },
   "projects": {
-    "G:\\DotNet Programs\\BasicTutorial\\BasicTutorial.csproj": {
+    "G:\\DotNet Programs\\1. BasicTutorial\\BasicTutorial.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\DotNet Programs\\BasicTutorial\\BasicTutorial.csproj",
+        "projectUniqueName": "G:\\DotNet Programs\\1. BasicTutorial\\BasicTutorial.csproj",
         "projectName": "BasicTutorial",
-        "projectPath": "G:\\DotNet Programs\\BasicTutorial\\BasicTutorial.csproj",
+        "projectPath": "G:\\DotNet Programs\\1. BasicTutorial\\BasicTutorial.csproj",
         "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
-        "outputPath": "G:\\DotNet Programs\\BasicTutorial\\obj\\",
+        "outputPath": "G:\\DotNet Programs\\1. BasicTutorial\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dell\\AppData\\Roaming\\NuGet\\NuGet.Config"

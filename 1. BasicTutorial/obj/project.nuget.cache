@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kwG1yXLTtznxw3QkEOLwVqS1t+G4DsD6lrr8uGDoIX+jNL6qKK+mYZMLZ8Tx/t3SgN1cTDg86D/N0+U3rEcO8w==",
+  "dgSpecHash": "cGG/JLXiyqF2uzNmmgzjEbvdU+Kmatt7Ie2Sc20xSkpb+Ux8ETGGmjcygJ/RMzRDu22CvllL5D5bnIQgoFXcLQ==",
   "success": true,
-  "projectFilePath": "G:\\DotNet Programs\\BasicTutorial\\BasicTutorial.csproj",
+  "projectFilePath": "G:\\DotNet Programs\\1. BasicTutorial\\BasicTutorial.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
