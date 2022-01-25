@@ -1,0 +1,15 @@
+G:\DotNet Programs\BasicTutorial\bin\Debug\net6.0\BasicTutorial.exe
+G:\DotNet Programs\BasicTutorial\bin\Debug\net6.0\BasicTutorial.deps.json
+G:\DotNet Programs\BasicTutorial\bin\Debug\net6.0\BasicTutorial.runtimeconfig.json
+G:\DotNet Programs\BasicTutorial\bin\Debug\net6.0\BasicTutorial.dll
+G:\DotNet Programs\BasicTutorial\bin\Debug\net6.0\ref\BasicTutorial.dll
+G:\DotNet Programs\BasicTutorial\bin\Debug\net6.0\BasicTutorial.pdb
+G:\DotNet Programs\BasicTutorial\obj\Debug\net6.0\BasicTutorial.csproj.AssemblyReference.cache
+G:\DotNet Programs\BasicTutorial\obj\Debug\net6.0\BasicTutorial.GeneratedMSBuildEditorConfig.editorconfig
+G:\DotNet Programs\BasicTutorial\obj\Debug\net6.0\BasicTutorial.AssemblyInfoInputs.cache
+G:\DotNet Programs\BasicTutorial\obj\Debug\net6.0\BasicTutorial.AssemblyInfo.cs
+G:\DotNet Programs\BasicTutorial\obj\Debug\net6.0\BasicTutorial.csproj.CoreCompileInputs.cache
+G:\DotNet Programs\BasicTutorial\obj\Debug\net6.0\BasicTutorial.dll
+G:\DotNet Programs\BasicTutorial\obj\Debug\net6.0\ref\BasicTutorial.dll
+G:\DotNet Programs\BasicTutorial\obj\Debug\net6.0\BasicTutorial.pdb
+G:\DotNet Programs\BasicTutorial\obj\Debug\net6.0\BasicTutorial.genruntimeconfig.cache

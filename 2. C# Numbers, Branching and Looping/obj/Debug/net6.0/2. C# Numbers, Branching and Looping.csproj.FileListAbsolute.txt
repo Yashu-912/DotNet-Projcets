@@ -1,0 +1,15 @@
+G:\DotNet Programs\2. C# Numbers, Branching and Looping\obj\Debug\net6.0\2. C# Numbers, Branching and Looping.csproj.AssemblyReference.cache
+G:\DotNet Programs\2. C# Numbers, Branching and Looping\obj\Debug\net6.0\2. C# Numbers, Branching and Looping.GeneratedMSBuildEditorConfig.editorconfig
+G:\DotNet Programs\2. C# Numbers, Branching and Looping\obj\Debug\net6.0\2. C# Numbers, Branching and Looping.AssemblyInfoInputs.cache
+G:\DotNet Programs\2. C# Numbers, Branching and Looping\obj\Debug\net6.0\2. C# Numbers, Branching and Looping.AssemblyInfo.cs
+G:\DotNet Programs\2. C# Numbers, Branching and Looping\obj\Debug\net6.0\2. C# Numbers, Branching and Looping.csproj.CoreCompileInputs.cache
+G:\DotNet Programs\2. C# Numbers, Branching and Looping\bin\Debug\net6.0\2. C# Numbers, Branching and Looping.exe
+G:\DotNet Programs\2. C# Numbers, Branching and Looping\bin\Debug\net6.0\2. C# Numbers, Branching and Looping.deps.json
+G:\DotNet Programs\2. C# Numbers, Branching and Looping\bin\Debug\net6.0\2. C# Numbers, Branching and Looping.runtimeconfig.json
+G:\DotNet Programs\2. C# Numbers, Branching and Looping\bin\Debug\net6.0\2. C# Numbers, Branching and Looping.dll
+G:\DotNet Programs\2. C# Numbers, Branching and Looping\bin\Debug\net6.0\ref\2. C# Numbers, Branching and Looping.dll
+G:\DotNet Programs\2. C# Numbers, Branching and Looping\bin\Debug\net6.0\2. C# Numbers, Branching and Looping.pdb
+G:\DotNet Programs\2. C# Numbers, Branching and Looping\obj\Debug\net6.0\2. C# Numbers, Branching and Looping.dll
+G:\DotNet Programs\2. C# Numbers, Branching and Looping\obj\Debug\net6.0\ref\2. C# Numbers, Branching and Looping.dll
+G:\DotNet Programs\2. C# Numbers, Branching and Looping\obj\Debug\net6.0\2. C# Numbers, Branching and Looping.pdb
+G:\DotNet Programs\2. C# Numbers, Branching and Looping\obj\Debug\net6.0\2. C# Numbers, Branching and Looping.genruntimeconfig.cache
