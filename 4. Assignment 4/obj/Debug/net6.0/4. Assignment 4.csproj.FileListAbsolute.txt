@@ -1,0 +1,15 @@
+G:\DotNet Programs\4. Assignment 4\bin\Debug\net6.0\4. Assignment 4.exe
+G:\DotNet Programs\4. Assignment 4\bin\Debug\net6.0\4. Assignment 4.deps.json
+G:\DotNet Programs\4. Assignment 4\bin\Debug\net6.0\4. Assignment 4.runtimeconfig.json
+G:\DotNet Programs\4. Assignment 4\bin\Debug\net6.0\4. Assignment 4.dll
+G:\DotNet Programs\4. Assignment 4\bin\Debug\net6.0\ref\4. Assignment 4.dll
+G:\DotNet Programs\4. Assignment 4\bin\Debug\net6.0\4. Assignment 4.pdb
+G:\DotNet Programs\4. Assignment 4\obj\Debug\net6.0\4. Assignment 4.csproj.AssemblyReference.cache
+G:\DotNet Programs\4. Assignment 4\obj\Debug\net6.0\4. Assignment 4.GeneratedMSBuildEditorConfig.editorconfig
+G:\DotNet Programs\4. Assignment 4\obj\Debug\net6.0\4. Assignment 4.AssemblyInfoInputs.cache
+G:\DotNet Programs\4. Assignment 4\obj\Debug\net6.0\4. Assignment 4.AssemblyInfo.cs
+G:\DotNet Programs\4. Assignment 4\obj\Debug\net6.0\4. Assignment 4.csproj.CoreCompileInputs.cache
+G:\DotNet Programs\4. Assignment 4\obj\Debug\net6.0\4. Assignment 4.dll
+G:\DotNet Programs\4. Assignment 4\obj\Debug\net6.0\ref\4. Assignment 4.dll
+G:\DotNet Programs\4. Assignment 4\obj\Debug\net6.0\4. Assignment 4.pdb
+G:\DotNet Programs\4. Assignment 4\obj\Debug\net6.0\4. Assignment 4.genruntimeconfig.cache
