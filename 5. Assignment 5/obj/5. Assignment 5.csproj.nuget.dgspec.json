@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "g:\\DotNet Programs\\2. C# Numbers, Branching and Looping\\2. C# Numbers, Branching and Looping.csproj": {}
+    "G:\\DotNet Programs\\5. Assignment 5\\5. Assignment 5.csproj": {}
   },
   "projects": {
-    "g:\\DotNet Programs\\2. C# Numbers, Branching and Looping\\2. C# Numbers, Branching and Looping.csproj": {
+    "G:\\DotNet Programs\\5. Assignment 5\\5. Assignment 5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "g:\\DotNet Programs\\2. C# Numbers, Branching and Looping\\2. C# Numbers, Branching and Looping.csproj",
-        "projectName": "2. C# Numbers, Branching and Looping",
-        "projectPath": "g:\\DotNet Programs\\2. C# Numbers, Branching and Looping\\2. C# Numbers, Branching and Looping.csproj",
+        "projectUniqueName": "G:\\DotNet Programs\\5. Assignment 5\\5. Assignment 5.csproj",
+        "projectName": "5. Assignment 5",
+        "projectPath": "G:\\DotNet Programs\\5. Assignment 5\\5. Assignment 5.csproj",
         "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
-        "outputPath": "g:\\DotNet Programs\\2. C# Numbers, Branching and Looping\\obj\\",
+        "outputPath": "G:\\DotNet Programs\\5. Assignment 5\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dell\\AppData\\Roaming\\NuGet\\NuGet.Config"
