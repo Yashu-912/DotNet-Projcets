@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "g:\\DotNet Programs\\5. Assignment 5\\5. Assignment 5.csproj": {}
+    "G:\\DotNet Programs\\6. Assignment 6\\6. Assignment 6.csproj": {}
   },
   "projects": {
-    "g:\\DotNet Programs\\5. Assignment 5\\5. Assignment 5.csproj": {
+    "G:\\DotNet Programs\\6. Assignment 6\\6. Assignment 6.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "g:\\DotNet Programs\\5. Assignment 5\\5. Assignment 5.csproj",
-        "projectName": "5. Assignment 5",
-        "projectPath": "g:\\DotNet Programs\\5. Assignment 5\\5. Assignment 5.csproj",
+        "projectUniqueName": "G:\\DotNet Programs\\6. Assignment 6\\6. Assignment 6.csproj",
+        "projectName": "6. Assignment 6",
+        "projectPath": "G:\\DotNet Programs\\6. Assignment 6\\6. Assignment 6.csproj",
         "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
-        "outputPath": "g:\\DotNet Programs\\5. Assignment 5\\obj\\",
+        "outputPath": "G:\\DotNet Programs\\6. Assignment 6\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dell\\AppData\\Roaming\\NuGet\\NuGet.Config"
