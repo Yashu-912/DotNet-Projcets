@@ -2,7 +2,7 @@
 InsertionSortTest.Test();
 DelegateAndLambdaTest.Test();
 
-/*
+
 
 
 
@@ -22,4 +22,3 @@ LookupSample.LookupMain();
 
 
 QueueSample.QueueMain();
-*/
