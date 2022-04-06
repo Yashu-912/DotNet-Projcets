@@ -1,0 +1,61 @@
+@model IEnumerable<Assignment8.Models.Student>
+
+
+<div class="container p-3">
+    <div class="row pt-4">
+        <div class="col-8">
+            <h2 class="text-primary">Student List</h2>
+        </div>
+        <div style="margin-top: 50px;">
+        <form asp-controller="Student" asp-action="Index">
+        <div>
+            <label>Student Name : </label>
+            <input type="text" name="SearchString" style="border-radius: 5px; height:40px"/>
+            <input class="btn btn-primary" type="submit" value="Filter" style="margin-left: 10px;">
+            <a asp-controller="Student" asp-action="Index" class="btn btn-primary">Refresh</a>
+            
+        </div>
+        </form>
+        </div>
+        <div style="diaplay:flex">
+            <div style="position:relative; float: right;">
+                <a asp-controller="Student" asp-action="Create" class="btn btn-primary">Add a new Student</a>
+            </div>
+        </div>
+    </div>
+    <br />
+    @if (Model!.Count() > 0)
+    {
+        <table class="table table-bordered table-striped" style="width:100%; text-align: center;">
+            <thead>
+                <tr>
+                    <th>Student ID</th>
+                    <th>Student Name</th>
+                    <th>Class</th>
+                    <th>Percentage</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var obj1 in Model!)
+                {
+                    <tr >
+                        <td  width="15%" >@obj1.Student_ID</td>
+                        <td>@obj1.Student_Name</td>
+                        <td>@obj1.Class</td>
+                        <td>@obj1.percentage</td>
+                        <td width="15%">
+                            <a asp-controller="Student" asp-action="Edit" asp-route-studentid="@obj1.Student_ID"
+                        class="btn btn-primary">Edit</a>
+                            <a asp-controller="Student" asp-action="Delete" asp-route-studentid="@obj1.Student_ID"
+                        class="btn btn-danger">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <p> No details.</p>
+    }
+</div>
