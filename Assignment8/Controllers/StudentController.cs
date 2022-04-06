@@ -57,14 +57,13 @@ namespace Assignment8.Controllers {
             return RedirectToAction("Index");
         }
 
-        public IActionResult Delete(int studid) {
+        public IActionResult Delete(int studentid) {
 
-            Student? studobj = db.Student!.Find(studid);
+            Student? studobj = db.Student!.Find(studentid);
             db.Student.Remove(studobj!);
             db.SaveChanges();
             
-            var students = db.Student;
-            return RedirectToAction("Index", students);
+            return RedirectToAction("Index");
         }
     }
 }
