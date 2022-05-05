@@ -1,0 +1,227 @@
+    1.)  Creating a new mvc project and adding Extentions
+
+-install SQLEXPRESS basic installation
+-install SQL Server (mssql) extension in vscode
+
+dotnet new mvc
+
+
+__________________________________________________________________________________
+
+    2.) Adding 4 package files.
+
+dotnet add package Microsoft.EntityFrameworkCore
+dotnet add package Microsoft.EntityFrameworkCore.Design
+dotnet add package Microsoft.EntityFrameworkCore.Tools.Dotnet
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+
+__________________________________________________________________________________
+
+    3.) Add connection string in appsettings.json
+
+"Server=localhost\\SQLEXPRESS;Database=master;Trusted_Connection=True;MultipleActiveResultSets=True"
+
+
+
+__________________________________________________________________________________
+
+==> Appsettings.json
+
+{
+
+  "ConnectionStrings": {
+    "DefaultConnection" : "Server=localhost\\SQLEXPRESS;Database=master;Trusted_Connection=True;MultipleActiveResultSets=True"
+  },
+
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*"
+}
+
+
+
+__________________________________________________________________________________
+
+    4.) Create a Student.cs Model FIle in Models folder
+
+using System.ComponentModel.DataAnnotations;
+
+namespace MVC_Project.Models {
+
+    public class Student {
+
+        [Key]
+        public int Student_ID {get; set;}
+
+        [Required]
+        public string? Student_Name {get; set;}
+
+        [Required]
+        public int Student_Age {get; set;}
+
+        [Required(ErrorMessage = "Mobile Number is required!")]
+        [RegularExpression(@"^([0-9]{10})$", ErrorMessage ="Invalid Mobile Number.")]
+        public long Contact_No {get; set;}
+
+       
+
+    }
+}
+
+__________________________________________________________________________________
+
+    5.) Create a Data Folder in the project folder and Create ApplicationDbContext.cs file
+
+
+using Microsoft.EntityFrameworkCore;
+using MVC_Project.Models;
+
+namespace MVC_Project.Data {
+
+    public class ApplicationDbContext : DbContext {
+
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) {
+        }
+
+        public DbSet<Student>? Student {get; set;}
+    }
+}
+
+
+__________________________________________________________________________________
+
+    6.) Dependency Injection in Program.cs file
+
+-Move all statements in Program.cs in 
+
+
+Public class Program {
+
+	Public static void Main(String[] args) {
+
+		//Paste all statements
+}
+}
+
+
+⇒ Add Following dependency after AddControllerwithViews
+
+builder.Services.AddDbContext<MVC_Project.Data.ApplicationDbContext>(
+
+            options=> options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"))
+        );
+
+
+__________________________________________________________________________________
+
+ ==> Program.cs file should look like this
+
+
+
+public class Program {
+
+    public static void Main(string[] args) {
+
+        var builder = WebApplication.CreateBuilder(args);
+
+        builder.Services.AddDbContext<Assignment8.ApplicationDbContext>(
+            
+            options => 
+            options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"))
+        );
+
+        // Add services to the container.
+        builder.Services.AddControllersWithViews();
+
+        var app = builder.Build();
+
+.......
+.......
+.....
+
+}
+}
+
+
+__________________________________________________________________________________
+
+
+    7.) In Project/Views/Shared/Layout.cshtml , add new link for student.
+
+
+<li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Student" asp-action="Index">Student</a>
+                        </li>
+
+
+__________________________________________________________________________________
+
+
+
+    8.) Add Controller for Student in controller folder
+
+using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Mvc;
+using MVC_Project.Models;
+using MVC_Project.Data;
+
+namespace MVC_Project.Controllers {
+
+
+    public class StudentController : Controller {
+
+        private readonly ApplicationDbContext _db;
+
+        public StudentController(ApplicationDbContext _db) {
+
+            this._db = _db;
+        }
+    }
+}
+
+
+__________________________________________________________________________________
+
+
+    9.) Connect with mssql of Vscode to SQLEXPRESS
+
+⇒ New Connection
+⇒ localhost\SQLEXPRESS
+⇒ Table name = master
+⇒ Integrated
+⇒ Connection name = anything
+
+__________________________________________________________________________________
+
+
+    10.) Add Dotnet ef tools, create initial migrations and update database
+
+dotnet tool install  - -global dotnet-ef
+Dotnet ef migrations add InitialCreate
+Dotnet ef database update
+
+__________________________________________________________________________________
+
+
+    12.) Add student records in dbo.Student Table
+
+==> Go to Databases->System Databases->Master->Tables->dbo.Student Table
+
+==> right click on table and click "select top 1000"
+==> delete the readymade code, and add some records using...
+
+	insert into <table_name (Student in this case)> values ('name', age, COntact)
+
+__________________________________________________________________________________
+
+
+    13.) Add View for Student’s Index page in Student folder
+
+→ Create Student folder in View
+→ Create Index.cshtml
+→ Add Code for the view
+
